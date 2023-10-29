@@ -55,12 +55,17 @@ Timing comparison between original data, cached data and parquet formatted data:
 
 * Original data
 
+![image](https://github.com/CRGMBC/Home_Sales/assets/134125287/6da7b214-2721-4ac8-a539-4940ae373cdd)
+
 
 * Cached data
+
+![image](https://github.com/CRGMBC/Home_Sales/assets/134125287/65034138-1766-4547-bb68-658e518ab36d)
 
 
 * Parquet formatted data
 
+![image](https://github.com/CRGMBC/Home_Sales/assets/134125287/63ff5978-457d-4035-a668-ed0bacd00c37)
 
 
 Based on the runtime results, it's evident that both the cached data and the Parquet formatted data have faster runtimes compared to the original data. This can be attributed to the optimizations and benefits offered by caching and using the Parquet data format.
