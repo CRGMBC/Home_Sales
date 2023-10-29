@@ -38,3 +38,9 @@ Question 3:
 ![image](https://github.com/CRGMBC/Home_Sales/assets/134125287/2b641f02-cf33-446f-bf02-d89b72bff411)
 ![image](https://github.com/CRGMBC/Home_Sales/assets/134125287/997f6fe9-373f-4000-bc4f-101ea4957924)
 
+Question 4:
+*	What is the "view" rating for the average price of a home, rounded to two decimal places, where the homes are greater than or equal to $350,000? Although this is a small dataset, determine the run time for this query.
+![image](https://github.com/CRGMBC/Home_Sales/assets/134125287/cf26b5d2-405e-4f02-be74-06a8e8d03821)
+![image](https://github.com/CRGMBC/Home_Sales/assets/134125287/bfb0aaa7-0488-4870-ab7f-523b57068ba0)
+
+  
