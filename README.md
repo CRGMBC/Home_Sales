@@ -53,6 +53,13 @@ Final step was to partition the home sales data by the date_built field and re-r
 
 Timing comparison between original data, cached data and parquet formatted data:
 
+Based on the runtime results, it's evident that both the cached data and the Parquet formatted data have faster runtimes compared to the original data. This can be attributed to the optimizations and benefits offered by caching and using the Parquet data format.
 
+# Conclusion
+Caching the data, as performed in your code, stores the data in memory. When you query the cached data, it can be retrieved directly from memory, eliminating the need for reading the data from disk.
 
+Parquet is a columnar storage format specifically designed for efficient data processing. Parquet organises the data into columns, which allows queries to skip irrelevant columns and partitions during query execution.
+
+Parquet formatted data demonstrates the best runtime among the three options. This can be attributed to its optimized storage format, efficient compression, and the ability to leverage columnar optimisations during query execution. By utilizing Parquet, you can achieve faster query performance, reduced storage requirements, and improved overall data processing efficiency.
   
+Based on the runtime of the original data, cached data and parquet formatted data, parquet formatted data demonstrates the best runtime among the three options. The Parquet data format is indeed optimised for efficient processing and can provide better performance compared to other file formats like CSV or JSON, especially when dealing with large datasets. However, the runtime of a query can be influenced by various factors, including the size of the dataset, the complexity of the query, the available system resources, and the specific operations being performed. Additionally, runtime performance can vary depending on the specific dataset, hardware configuration, and the execution environment.
