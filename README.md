@@ -53,6 +53,16 @@ Final step was to partition the home sales data by the date_built field and re-r
 
 Timing comparison between original data, cached data and parquet formatted data:
 
+* Original data
+
+
+* Cached data
+
+
+* Parquet formatted data
+
+
+
 Based on the runtime results, it's evident that both the cached data and the Parquet formatted data have faster runtimes compared to the original data. This can be attributed to the optimizations and benefits offered by caching and using the Parquet data format.
 
 # Conclusion
