@@ -43,4 +43,15 @@ Question 4:
 ![image](https://github.com/CRGMBC/Home_Sales/assets/134125287/cf26b5d2-405e-4f02-be74-06a8e8d03821)
 ![image](https://github.com/CRGMBC/Home_Sales/assets/134125287/bfb0aaa7-0488-4870-ab7f-523b57068ba0)
 
+Next step was to cache the temporary table and re-run query 4 to compare running times
+
+![image](https://github.com/CRGMBC/Home_Sales/assets/134125287/3a82f158-3076-4236-8136-35c41ad6624a)
+
+
+Final step was to partition the home sales data by the date_built field and re-run query 4 to compare running times
+
+![image](https://github.com/CRGMBC/Home_Sales/assets/134125287/231ff294-c910-4c86-9fcb-ed6c2533092f)
+
+
+
   
